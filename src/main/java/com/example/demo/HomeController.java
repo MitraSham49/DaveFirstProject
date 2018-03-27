@@ -6,8 +6,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
 @Controller
+// add
 public class HomeController {
     @RequestMapping("/loadform")
+    // add a line to push in git
     public String loadFormPage() {
         //System.out.println("in the loadform say Hi-1");
         return "formtemplate";
@@ -19,6 +21,5 @@ public class HomeController {
         //System.out.println("in the loadform say Hi-2");
         return "confirm";
     }
-
 
     }
